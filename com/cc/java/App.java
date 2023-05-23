@@ -18,9 +18,9 @@ public class App {
         cat1.age = 29;
 
         // Ausgabe
-        output(cat1.name);
-        output(cat1.furColor);
-        output(Integer.toString(cat1.age));
+        output(cat1.tellYourName());
+        output(cat1.tellYourFurColor());
+        output(Integer.toString(cat1.tellYourAge()));
 
         // App.output("hi");
         output("-------------------");
@@ -35,9 +35,10 @@ public class App {
         cat2.age = 35;
 
         // Ausgabe
-        output(cat2.name);
-        output(cat2.furColor);
-        output(Integer.toString(cat2.age));
+        output(cat2.tellYourName());
+        output(cat2.tellYourFurColor());
+        output(Integer.toString(cat2.tellYourAge()));
+        
     }
  
     public static void output(String outStr) {

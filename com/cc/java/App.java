@@ -14,9 +14,9 @@ public class App {
 
 
         // Ausgabe über Methoden
-        output(cat1.tellYourName());
-        output(cat1.tellYourFurColor());
-        output(Integer.toString(cat1.tellYourAge()));
+        output(cat1.getName());
+        output(cat1.getFurColor());
+        output(Integer.toString(cat1.getAge()));
 
         // App.output("hi");
         output("-------------------");
@@ -27,9 +27,9 @@ public class App {
 
 
         // Ausgabe
-        output(cat2.tellYourName());
-        output(cat2.tellYourFurColor());
-        output(Integer.toString(cat2.tellYourAge()));
+        output(cat2.getName());
+        output(cat2.getFurColor());
+        output(Integer.toString(cat2.getAge()));
 
     }
  
